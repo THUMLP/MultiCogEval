@@ -1,7 +1,3 @@
-# import openai
-'''
-    如果前面大的检查项识别了，后面括号里的就不管了
-'''
 import time
 import os
 # os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"  # del

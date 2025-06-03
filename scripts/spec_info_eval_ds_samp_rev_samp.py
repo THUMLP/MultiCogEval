@@ -34,7 +34,7 @@ from utils import *
 from openai import OpenAI
 client = OpenAI(
     base_url = "https://api.deepseek.com",
-    api_key =  "sk-19c1f2deccb1434f91421bf1e17bf359" 
+    api_key =  "YOUR API KEY HERE", 
 )
 
 ACTION_LIST = ['PE', 'LAB', 'IMAGE', 'MICRO', 'OUTPUT']

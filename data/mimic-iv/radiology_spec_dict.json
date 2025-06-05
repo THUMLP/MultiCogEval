@@ -1,0 +1,317 @@
+{
+    "Neck": {
+        "Ultrasound": [
+            "US NECK, SOFT TISSUE",
+            "NECK,SOFT TISSUE US",
+            "THYROID U.S.",
+            "CAROTID SERIES COMPLETE"
+        ],
+        "MRI": [
+            "MRI SOFT TISSUE NECK, W/O & W/CONTRAST"
+        ],
+        "CT": [
+            "CT NECK W/ & W/O CONTRAST",
+            "CTA NECK W&W/OC & RECONS",
+            "ED STROKE CTA HEAD & NECK WITH PERFUSION",
+            "CT NECK W/CONTRAST (EG:PAROTIDS)",
+            "CTA HEAD AND CTA NECK",
+            "CT NECK W/O CONTRAST (EG: PAROTIDS)"
+        ],
+        "MRA": [
+            "MRA NECK W&W/O CONTRAST",
+            "MRA NECK W/CONTRAST"
+        ]
+    },
+    "Abdomen": {
+        "CT": [
+            "CT PELVIS W/O CONTRAST",
+            "CT ABD BX, LYMPHNODE BX",
+            "CT ABD & PELVIS WITH CONTRAST",
+            "CT PELVIS ORTHO W/O C",
+            "CT ABDOMEN W/O CONTRAST",
+            "CTA ABD W&W/O C & RECONS",
+            "CTA PANCREAS (ABDOMEN AND PELVIS)",
+            "CTA AORTA/BIFEM/ILIAC RUNOFF W/W&WO C AND RECONS",
+            "CTA PELVIS W&W/O C & RECONS",
+            "CTA ABD & PELVIS",
+            "CT PELVIS W/CONTRAST",
+            "CT ABD & PELVIS W/O CONTRAST",
+            "CT ABD & PELVIS W & W/O CONTRAST, ADDL SECTIONS",
+            "CT ABDOMEN W/CONTRAST",
+            "CT ABD W&W/O C"
+        ],
+        "Ultrasound": [
+            "US ABD LIMIT, SINGLE ORGAN PORT",
+            "US APPENDIX",
+            "RENAL U.S. PORT",
+            "COMPLETE GU U.S. (BLADDER & RENAL)",
+            "BLADDER US",
+            "DUPLEX DOPP ABD/PEL",
+            "PROSTATE U.S.",
+            "ABDOMEN US (COMPLETE STUDY)",
+            "LIVER OR GALLBLADDER US (SINGLE ORGAN)",
+            "US ABD LIMIT, SINGLE ORGAN",
+            "ABDOMEN U.S. (COMPLETE STUDY)",
+            "RENAL U.S.",
+            "DUPLEX DOP ABD/PEL LIMITED PORT",
+            "DUPLEX DOPP ABD/PEL PORT",
+            "ABDOMEN US (COMPLETE STUDY) PORT",
+            "DUPLEX DOP ABD/PEL LIMITED",
+            "US RENAL ARTERY DOPPLER",
+            "PELVIS, NON-OBSTETRIC",
+            "RENAL TRANSPLANT U.S.",
+            "PANCREAS US",
+            "ABDOMEN U.S. (COMPLETE STUDY) PORT",
+            "PELVIS U.S., TRANSVAGINAL",
+            "LIVER OR GALLBLADDER US (SINGLE ORGAN) PORT"
+        ],
+        "CTU": [
+            "LUMBAR SPINAL PUNCTURE",
+            "CTU (ABD/PEL) W/O CONTRAST",
+            "CTU (ABD/PEL) W/CONTRAST",
+            "LUMBAR PUNCTURE (W/ FLUORO)",
+            "CTU (ABD/PEL) W/&W/O CONTRAST"
+        ],
+        "Radiograph": [
+            "PORTABLE ABDOMEN",
+            "ABDOMEN (SUPINE ONLY) PORT",
+            "ABD SUPINE & LAT DECUB",
+            "TRAUMA #2 (AP CXR & PELVIS PORT)",
+            "ABDOMEN (SUPINE & ERECT) PORT",
+            "ABD SUPINE & LAT DECUB PORT",
+            "PELVIS (AP, INLET & OUTLET) IN O.R.",
+            "SKULL AP&LAT/C-SP/CXR/ABD SLG VIEWS MR SCREENING",
+            "PELVIS AP 1-2 VIEWS",
+            "PELVIS (AP ONLY) PORT",
+            "ABDOMEN (SUPINE ONLY) IN O.R.",
+            "ABD (SINGLE VIEW ONLY)",
+            "SHUNT SERIES AP & LAT SKULL, AP CHEST, AP ABDOMEN",
+            "ABDOMEN (SUPINE ONLY)",
+            "PELVIS AP 1-2 VIEWS PORT",
+            "PELVIS (AP ONLY)",
+            "ABDOMEN (SUPINE & ERECT)",
+            "BILAT HIPS (AP,LAT & AP PELVIS)",
+            "BILAT HIPS (AP, LAT, & PELVIS) 5 OR MORE VIEWS",
+            "BAS/UGI AIR/SBFT"
+        ],
+        "ERCP": [
+            "ERCP BILIARY&PANCREAS BY GI UNIT",
+            "ERCP BILIARY ONLY BY GI UNIT"
+        ],
+        "MRI": [
+            "MRI LIVER W&W/O CONTRAST",
+            "MR PELVIS W&W/O CONTRAST",
+            "MRI PELVIS W/O & W/CONTRAST",
+            "MRI ABDOMEN W/O & W/CONTRAST",
+            "MRI ABDOMEN W/O CONTRAST",
+            "MRI (ABDOMEN & PELVIS) W&W/O CONTRAST",
+            "SKULL AP&LAT/C-SP/CXR/ABD SLG VIEWS MR SCREENING"
+        ],
+        "MRCP": [
+            "MRCP (MR ABD W&W/OC)",
+            "MRCP W/O CONTRAST"
+        ],
+        "Upper GI Series": [
+            "BAS/UGI AIR/SBFT"
+        ],
+        "MRE": [
+            "MR ENTEROGRAPHY (74183&72197) SBFT"
+        ],
+        "Drainage": [
+            "INTRO CATH RENAL PELVIS FOR DRAINAGE"
+        ]
+    },
+    "Chest": {
+        "Radiograph": [
+            "CHEST (PRE-OP PA & LAT)",
+            "RIB UNILAT, W/ AP CHEST LEFT",
+            "CHEST (PA & LAT)",
+            "CHEST (SINGLE VIEW) PORT",
+            "CHEST (PORTABLE AP)",
+            "CHEST PORT. LINE PLACEMENT",
+            "CHEST (SINGLE VIEW)",
+            "CHEST (PA, LAT & OBLIQUES)",
+            "CHEST (PRE-OP AP ONLY) PORT",
+            "CHEST (SINGLE VIEW) IN O.R.",
+            "CHEST (PA & LAT) PORT",
+            "CHEST (PRE-OP AP ONLY)",
+            "SHUNT SERIES AP & LAT SKULL, AP CHEST, AP ABDOMEN",
+            "SKULL AP&LAT/C-SP/CXR/ABD SLG VIEWS MR SCREENING"
+        ],
+        "CT": [
+            "CT CHEST W/CONTRAST",
+            "CT CHEST W&W/O C ",
+            "CTA CHEST ",
+            "CTA CHEST W&W/O C&RECONS, NON-CORONARY",
+            "CT LUNG/MEDIASTINAL BX",
+            "CT CHEST W/O CONTRAST",
+            "CTA AORTA/BIFEM/ILIAC RUNOFF W/W&WO C AND RECONS"
+        ],
+        "MRI": [
+            "MRI CHEST/MEDIASTINUM W/O & W/CONTRAST",
+            "MR CARDIAC MORPH/FX NO CONTRAST",
+            "MRI MEDIASTINUM/LUNG W&W/O CONTRAST",
+            "MR CARDIAC MORPH/FX P/P CONTRAST"
+        ],
+        "Fluoroscopy": [
+            "CHEST FLUORO WITHOUT RADIOLOGIST IN O.R."
+        ],
+        "CTU": [
+            "CARDIAC STRUCTURE/MORPH, 3D, FUNCTION"
+        ],
+        "Ultrasound": [
+            "UNILAT BREAST US LEFT"
+        ],
+        "MRA": [
+            "MRA CHEST W/O CONTRAST"
+        ]
+    },
+    "Scrotum": {
+        "Ultrasound": [
+            "SCROTAL U.S."
+        ]
+    },
+    "Head": {
+        "CT": [
+            "CTA HEAD W&W/O C & RECONS",
+            "CT HEAD W/ & W/O CONTRAST",
+            "CT HEAD W/O CONTRAST",
+            "ED STROKE CTA HEAD & NECK WITH PERFUSION",
+            "CTA HEAD AND CTA NECK",
+            "PORTABLE HEAD CT W/O CONTRAST"
+        ],
+        "MRI": [
+            "MR HEAD W/O CONTRAST",
+            "MRI ORBITS & BRAIN W&W/O CONTRAST",
+            "MR HEAD W & W/O CONTRAST",
+            "MR HEAD W/ CONTRAST"
+        ],
+        "Radiograph": [
+            "PORTABLE HEAD CT W/O CONTRAST",
+            "SKULL (AP, TOWNES & LAT) TRAUMA",
+            "SHUNT SERIES AP & LAT SKULL, AP CHEST, AP ABDOMEN",
+            "SKULL AP&LAT/C-SP/CXR/ABD SLG VIEWS MR SCREENING"
+        ],
+        "MRA": [
+            "MRA BRAIN W/O CONTRAST"
+        ]
+    },
+    "Shoulder": {
+        "MRI": [
+            "MR SHOULDER W&W/O CONTRAST LEFT",
+            "MR SHOULDER W/O CONTRAST RIGHT",
+            "MR SHOULDER W/O CONTRAST LEFT"
+        ],
+        "Radiograph": [
+            "SHOULDER (AP, NEUTRAL & AXILLARY) SOFT TISSUE RIGHT",
+            "SHOULDER (AP, NEUTRAL & AXILLARY) TRAUMA LEFT",
+            "SHOULDER (AP, NEUTRAL & AXILLARY) TRAUMA RIGHT"
+        ]
+    },
+    "Spine": {
+        "Radiograph": [
+            "L-SPINE (AP & LAT)",
+            "L-SPINE (AP & LAT) IN O.R.",
+            "C-SPINE (AP, FLEX & EXT) 3 VIEWS",
+            "LUMBO-SACRAL SPINE (AP & LAT)",
+            "L-SPINE (AP,LAT,FLEX,EXT)"
+        ],
+        "MRI": [
+            "MR L SPINE W/O CONTRAST",
+            "MR C-SPINE SCAN WITH CONTRAST",
+            "MR CERVICAL SPINE W/O CONTRAST",
+            "MR THORACIC SPINE W/O CONTRAST",
+            "MR T-SPINE W &W/O CONTRAST",
+            "MR L-SPINE W & W/O CONTRAST",
+            "MR C-SPINE W& W/O CONTRAST"
+        ],
+        "CT": [
+            "CT L-SPINE W/O CONTRAST",
+            "CT T-SPINE W/O CONTRAST",
+            "CT C-SPINE W/O CONTRAST"
+        ]
+    },
+    "Hip": {
+        "MRI": [
+            "MR HIP W/O CONRAST RIGHT"
+        ],
+        "Radiograph": [
+            "BILAT HIPS (AP,LAT & AP PELVIS)",
+            "BILAT HIPS (AP, LAT, & PELVIS) 5 OR MORE VIEWS"
+        ]
+    },
+    "Venous": {
+        "Ultrasound": [
+            "VENOUS DUP UPPER EXT BILATERAL",
+            "UNILAT UP EXT VEINS US LEFT PORT",
+            "UNILAT UP EXT VEINS US",
+            "FEMORAL VASCULAR US LEFT",
+            "BILAT UP EXT VEINS US",
+            "VENOUS DUP REFLUX BILAT",
+            "UNILAT UP EXT VEINS US RIGHT",
+            "UNILAT UP EXT VEINS US LEFT",
+            "FEMORAL VASCULAR US RIGHT",
+            "VENOUS DUP UPPER EXT UNILATERAL",
+            "VENOUS DUP EXT UNI (MAP/DVT) LEFT",
+            "VENOUS DUP EXT UNI (MAP/DVT) RIGHT",
+            "VENOUS DUP UPPER EXT UNILATERAL RIGHT",
+            "VENOUS DUP EXT UNI (MAP/DVT)",
+            "FEMORAL VASCULAR US"
+        ],
+        "Radiograph": [
+            "SHOULDER (AP, NEUTRAL & AXILLARY) SOFT TISSUE RIGHT",
+            "SHOULDER (AP, NEUTRAL & AXILLARY) TRAUMA LEFT",
+            "SHOULDER (AP, NEUTRAL & AXILLARY) TRAUMA RIGHT"
+        ]
+    },
+    "Knee": {
+        "Radiograph": [
+            "KNEE (AP, LAT & OBLIQUE) LEFT",
+            "KNEE (AP, LAT & OBLIQUE) RIGHT",
+            "KNEE (AP, LAT & OBLIQUE) BILAT"
+        ]
+    },
+    "Hand": {
+        "Radiograph": [
+            "HAND (PA,LAT & OBLIQUE) LEFT",
+            "HAND (PA,LAT & OBLIQUE) BILAT",
+            "HAND (AP, LAT & OBLIQUE) RIGHT"
+        ]
+    },
+    "Foot": {
+        "Radiograph": [
+            "FOOT AP,LAT & OBL RIGHT PORT",
+            "FOOT AP,LAT & OBL RIGHT",
+            "FOOT AP,LAT & OBL LEFT PORT",
+            "FOOT AP,LAT & OBL BILAT",
+            "FOOT AP,LAT & OBL LEFT"
+        ],
+        "MRI": [
+            "MR FOOT W&W/O CONTRAST RIGHT",
+            "MR FOOT W/O CONTRAST RIGHT"
+        ]
+    },
+    "Femur": {
+        "Radiograph": [
+            "FEMUR (AP & LAT) RIGHT PORT",
+            "FEMUR (AP & LAT) LEFT",
+            "FEMUR (AP & LAT) BILAT"
+        ]
+    },
+    "Ankle": {
+        "Radiograph": [
+            "ANKLE (AP, LAT & OBLIQUE) IN O.R. RIGHT",
+            "ANKLE (AP, MORTISE & LAT) RIGHT PORT",
+            "ANKLE (AP, MORTISE & LAT) LEFT",
+            "ANKLE (AP, MORTISE & LAT) RIGHT"
+        ],
+        "MRI": [
+            "MR ANKLE W/O CONTRAST RIGHT"
+        ]
+    },
+    "Wrist": {
+        "Radiograph": [
+            "WRIST, AP & LAT VIEWS RIGHT"
+        ]
+    }
+}

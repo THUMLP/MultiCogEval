@@ -1,28 +1,12 @@
-# import openai
-'''
-    如果前面大的检查项识别了，后面括号里的就不管了
-'''
+
 import time
 import os
-# os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"  # del
-# os.environ["CUDA_VISIBLE_DEVICES"] = "1,2"
 import json
 from tqdm import tqdm
 from functools import lru_cache
 from multiprocessing import Pool
 import argparse
-import torch
-from transformers import (
-    AutoConfig,
-    AutoModel,
-    AutoTokenizer,
-    AutoTokenizer,
-    DataCollatorForSeq2Seq,
-    HfArgumentParser,
-    Seq2SeqTrainingArguments,
-    AutoModelForCausalLM,
-    set_seed,
-)
+from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
 import pandas as pd
 import argparse
@@ -31,6 +15,7 @@ import pickle
 import re
 from fuzzywuzzy import fuzz
 from utils import *
+
 
 
 ACTION_LIST = ['PE', 'LAB', 'IMAGE', 'MICRO', 'OUTPUT']
@@ -388,7 +373,7 @@ standardize_lab_tests = {
 # supplementary_lab_tests = {key.lower():value for key, value in supplementary_lab_tests.items()}
 # standardize_lab_tests = {key.lower():value for key, value in standardize_lab_tests.items()}
 
-base_new = "/hdd/zhouyx/mimic-clinical-decision-making"
+base_new = "data/mimic-iv"
 meta_lab_tests = json.load(open(os.path.join(base_new, 'meta_lab_tests_UMLS_ext.json'),'r'))
 for key in supplementary_lab_tests:
     if key not in meta_lab_tests:
@@ -691,8 +676,8 @@ def specification_parser_test(action, response, exam_name_mapping):
     return res_list
 
 def specification_parser(action, response, exam_name_mapping, model_name):
-    outf = open(f"unfound_lab_test_{model_name}.jsonl",'a')
-    outf_2 = open(f"unfound_rab_{model_name}.jsonl",'a')
+    # outf = open(f"unfound_lab_test_{model_name}.jsonl",'a')
+    # outf_2 = open(f"unfound_rab_{model_name}.jsonl",'a')
     if action == 'LAB_s':
         prefix = r'Lab Tests:'
     elif action == 'IMAGE_s':
@@ -792,7 +777,7 @@ def specification_parser(action, response, exam_name_mapping, model_name):
                 if item in long_to_abbr:
                     abbr_action_spc.extend(long_to_abbr[item])
                 # if item.lower() not in nofound:
-                outf.write(json.dumps([item, action_spc, response])+'\n')
+                # outf.write(json.dumps([item, action_spc, response])+'\n')
                 nofound.add(item.lower())
         for item in abbr_action_spc:
             if len(item) <=1:
@@ -812,7 +797,7 @@ def specification_parser(action, response, exam_name_mapping, model_name):
 
             if not flag:
                 # if item.lower() not in nofound:
-                outf.write(json.dumps([item, action_spc, response])+'\n')
+                # outf.write(json.dumps([item, action_spc, response])+'\n')
                 nofound.add(item.lower())
     else:
         # region = 
@@ -868,13 +853,13 @@ def specification_parser(action, response, exam_name_mapping, model_name):
                         global_modal, global_region = parse_radiology_request(response) # Regions may also exist in the rationale
                         if len(global_region) > 0:
                             res_list.append({'Exam Name': item.upper(), 'Region': global_region, 'Modality': modality})
-                    else:
-                        outf_2.write(json.dumps([item, modality, region, action_spc, response])+'\n')
+                    # else:
+                        # outf_2.write(json.dumps([item, modality, region, action_spc, response])+'\n')
                 else:
                     res_list.append({'Exam Name': item.upper(), 'Region': region, 'Modality': modality})
     res_list = list(res_list)
-    outf.close()
-    outf_2.close()
+    # outf.close()
+    # outf_2.close()
     # for item in valid_list:
     #     if item.lower() in action_spc.lower():
     #         res_list.append(item)
@@ -1192,17 +1177,18 @@ def main(args):
     model = LLM(model=args.model,tensor_parallel_size=args.num_cuda, gpu_memory_utilization=args.util,max_model_len=args.max_length,trust_remote_code=True, swap_space=32, max_num_seqs=args.max_num_seqs)
     tokenizer = AutoTokenizer.from_pretrained(args.model,trust_remote_code=True)
     # 2. Load Data
-    base_new = "/hdd/zhouyx/mimic-clinical-decision-making"
+    base_new = "data/mimic-iv"
+    mimic_path = "data/mimic-iv/origin"
     all_data = pickle.load(
-            open(os.path.join(base_new, f"final_filtered_rev_all_hadm_info_first_diag.pkl"), "rb"),
+            open(os.path.join(base_new, f"all_hadm_info_first_diag.pkl"), "rb"),
         )
     
-    microbiologyevents = pd.read_csv(os.path.join('/hdd/zhouyx/mimic-iv-2.2/hosp', 'microbiologyevents.csv'))
+    microbiologyevents = pd.read_csv(os.path.join(mimic_path,'hosp', 'microbiologyevents.csv'))
     itemid_to_name = microbiologyevents.set_index('test_itemid')['test_name'].to_dict()
-    lab_test_mapping = pickle.load(open('/hdd/zhouyx/mimic-iv-2.2/hosp/lab_test_mapping.pkl','rb'))
+    lab_test_mapping = pickle.load(open(os.path.join(mimic_path,'hosp','lab_test_mapping.pkl'),'rb'))
     lab_test_id_to_name = lab_test_mapping.set_index('itemid')['label'].to_dict()
-    exam_name_mapping = json.load(open('radiology_name_dict.json','r'))
-    exam_spec_mapping = json.load(open('radiology_spec_dict.json','r'))
+    exam_name_mapping = json.load(open('data/mimic-iv/radiology_name_dict.json','r'))
+    exam_spec_mapping = json.load(open('data/mimic-iv/radiology_spec_dict.json','r'))
     for region in exam_spec_mapping:
         for modality in exam_spec_mapping[region]:
             if modality in UNIQUE_TO_BROAD_MODALITY:
@@ -1443,19 +1429,14 @@ def main(args):
         valid_ids = new_ids
     for ids in results:
         results[ids] = [test_set[ids][1]] + results[ids]
-    if args.seed > 0:
-        if not os.path.exists(f'results_part_{args.seed}'):
-            os.makedirs(f'results_part_{args.seed}')
-        pickle.dump(results, open(f"results_part_{args.seed}/results_{args.model_name}.pkl",'wb'))
-        pickle.dump(chat_history, open(f"results_part_{args.seed}/chat_history_{args.model_name}.pkl",'wb'))
-        pickle.dump({'lab': lab_event_request, 'micro': micro_event_request, 'image': image_event_request}, open(f"results_part_{args.seed}/event_request_{args.model_name}.pkl",'wb'))
-    else:
-        if not os.path.exists(f'results_part'):
-            os.makedirs(f'results_part')
-        pickle.dump(results, open(f"results_part/results_{args.model_name}.pkl",'wb'))
-        pickle.dump(chat_history, open(f"results_part/chat_history_{args.model_name}.pkl",'wb'))
-        pickle.dump({'lab': lab_event_request, 'micro': micro_event_request, 'image': image_event_request}, open(f"results_part/event_request_{args.model_name}.pkl",'wb'))
-    # json.dump(buffer, open("lab_test_buffer.json",'w'))
+    if not os.path.exists(f'results/mimic-iv'):
+        os.makedirs(f'results/mimic-iv')
+    if not os.path.exists(f'results/mimic-iv/{args.seed}'):
+        os.makedirs(f'results/mimic-iv/{args.seed}')
+    pickle.dump(results, open(f"results/mimic-iv/{args.seed}/results_{args.model_name}.pkl",'wb'))
+    pickle.dump(chat_history, open(f"results/mimic-iv/{args.seed}/chat_history_{args.model_name}.pkl",'wb'))
+    pickle.dump({'lab': lab_event_request, 'micro': micro_event_request, 'image': image_event_request}, open(f"results/mimic-iv/{args.seed}/event_request_{args.model_name}.pkl",'wb'))
+
                 
             
     
@@ -1463,15 +1444,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ntrain", "-k", type=int, default=5)
-    parser.add_argument("--nchain", "-c", type=int, default=5)
-    parser.add_argument("--nbatch", "-b", type=int, default=-1)
-    parser.add_argument("--typs", action="extend",nargs="+", type=str)
-    parser.add_argument("--dataset",type=str,default='medqa')
-    # parser.add_argument("--tokenizer_path", type=str, default="/home/zhouyx/llama2/vicuna_13B")
-    parser.add_argument("--model", type=str, default='/hdd/zhouyx/llm/Llama-2-7b-chat-hf')
-    parser.add_argument("--model_name", type=str, default='llama2-7B-it')
-    parser.add_argument("--start", type=int, default=0)
+    parser.add_argument("--model", type=str, default='YOUR MODEL PATH HERE')
+    parser.add_argument("--model_name", type=str, default='YOUR MODEL NAME HERE')
     parser.add_argument("--max_length", type=int, default=4096)
     parser.add_argument("--num_cuda", type=int, default=2)
     parser.add_argument("--num_workers", type=int, default=8)

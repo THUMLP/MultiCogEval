@@ -1,0 +1,1479 @@
+{
+    "US NECK, SOFT TISSUE": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "NECK,SOFT TISSUE US": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "THYROID U.S.": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "CAROTID SERIES COMPLETE": {
+        "modalities": [
+            "Carotid ultrasound"
+        ],
+        "regions": []
+    },
+    "MRI SOFT TISSUE NECK, W/O & W/CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "CT NECK W/ & W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "CTA NECK W&W/OC & RECONS": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "ED STROKE CTA HEAD & NECK WITH PERFUSION": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Neck",
+            "Head"
+        ]
+    },
+    "CT NECK W/CONTRAST (EG:PAROTIDS)": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "CTA HEAD AND CTA NECK": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Neck",
+            "Head"
+        ]
+    },
+    "CT NECK W/O CONTRAST (EG: PAROTIDS)": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "MRA NECK W&W/O CONTRAST": {
+        "modalities": [
+            "MRA"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "MRA NECK W/CONTRAST": {
+        "modalities": [
+            "MRA"
+        ],
+        "regions": [
+            "Neck"
+        ]
+    },
+    "CT PELVIS W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CT ABD BX, LYMPHNODE BX": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CT ABD & PELVIS WITH CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CT PELVIS ORTHO W/O C": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CT ABDOMEN W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CTA ABD W&W/O C & RECONS": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CTA PANCREAS (ABDOMEN AND PELVIS)": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CTA AORTA/BIFEM/ILIAC RUNOFF W/W&WO C AND RECONS": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Chest",
+            "Abdomen"
+        ]
+    },
+    "CTA PELVIS W&W/O C & RECONS": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CTA ABD & PELVIS": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CT PELVIS W/CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CT ABD & PELVIS W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CT ABD & PELVIS W & W/O CONTRAST, ADDL SECTIONS": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CT ABDOMEN W/CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CT ABD W&W/O C": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "US ABD LIMIT, SINGLE ORGAN PORT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "US APPENDIX": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "RENAL U.S. PORT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "COMPLETE GU U.S. (BLADDER & RENAL)": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "BLADDER US": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "DUPLEX DOPP ABD/PEL": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "PROSTATE U.S.": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABDOMEN US (COMPLETE STUDY)": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "LIVER OR GALLBLADDER US (SINGLE ORGAN)": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "US ABD LIMIT, SINGLE ORGAN": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABDOMEN U.S. (COMPLETE STUDY)": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "RENAL U.S.": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "DUPLEX DOP ABD/PEL LIMITED PORT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "DUPLEX DOPP ABD/PEL PORT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABDOMEN US (COMPLETE STUDY) PORT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "DUPLEX DOP ABD/PEL LIMITED": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "US RENAL ARTERY DOPPLER": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "PELVIS, NON-OBSTETRIC": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "RENAL TRANSPLANT U.S.": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "PANCREAS US": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABDOMEN U.S. (COMPLETE STUDY) PORT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "PELVIS U.S., TRANSVAGINAL": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "LIVER OR GALLBLADDER US (SINGLE ORGAN) PORT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "LUMBAR SPINAL PUNCTURE": {
+        "modalities": [
+            "CTU"
+        ],
+        "regions": []
+    },
+    "CTU (ABD/PEL) W/O CONTRAST": {
+        "modalities": [
+            "CTU"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CTU (ABD/PEL) W/CONTRAST": {
+        "modalities": [
+            "CTU"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "LUMBAR PUNCTURE (W/ FLUORO)": {
+        "modalities": [
+            "CTU"
+        ],
+        "regions": []
+    },
+    "CTU (ABD/PEL) W/&W/O CONTRAST": {
+        "modalities": [
+            "CTU"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "PORTABLE ABDOMEN": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABDOMEN (SUPINE ONLY) PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABD SUPINE & LAT DECUB": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "TRAUMA #2 (AP CXR & PELVIS PORT)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABDOMEN (SUPINE & ERECT) PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABD SUPINE & LAT DECUB PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "PELVIS (AP, INLET & OUTLET) IN O.R.": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "SKULL AP&LAT/C-SP/CXR/ABD SLG VIEWS MR SCREENING": {
+        "modalities": [
+            "Radiograph",
+            "MRI"
+        ],
+        "regions": [
+            "Chest",
+            "Abdomen",
+            "Head"
+        ]
+    },
+    "PELVIS AP 1-2 VIEWS": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "PELVIS (AP ONLY) PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABDOMEN (SUPINE ONLY) IN O.R.": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABD (SINGLE VIEW ONLY)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "SHUNT SERIES AP & LAT SKULL, AP CHEST, AP ABDOMEN": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest",
+            "Abdomen",
+            "Head"
+        ]
+    },
+    "ABDOMEN (SUPINE ONLY)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "PELVIS AP 1-2 VIEWS PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "PELVIS (AP ONLY)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ABDOMEN (SUPINE & ERECT)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "BILAT HIPS (AP,LAT & AP PELVIS)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen",
+            "Hip"
+        ]
+    },
+    "BILAT HIPS (AP, LAT, & PELVIS) 5 OR MORE VIEWS": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen",
+            "Hip"
+        ]
+    },
+    "ERCP BILIARY&PANCREAS BY GI UNIT": {
+        "modalities": [
+            "ERCP"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "ERCP BILIARY ONLY BY GI UNIT": {
+        "modalities": [
+            "ERCP"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "MRI LIVER W&W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "MR PELVIS W&W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "MRI PELVIS W/O & W/CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "MRI ABDOMEN W/O & W/CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "MRI ABDOMEN W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "MRI (ABDOMEN & PELVIS) W&W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "MRCP (MR ABD W&W/OC)": {
+        "modalities": [
+            "MRCP"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "MRCP W/O CONTRAST": {
+        "modalities": [
+            "MRCP"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "BAS/UGI AIR/SBFT": {
+        "modalities": [
+            "Upper GI Series",
+            "Radiograph"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "MR ENTEROGRAPHY (74183&72197) SBFT": {
+        "modalities": [
+            "MRE"
+        ],
+        "regions": []
+    },
+    "INTRO CATH RENAL PELVIS FOR DRAINAGE": {
+        "modalities": [
+            "Drainage"
+        ],
+        "regions": [
+            "Abdomen"
+        ]
+    },
+    "CHEST (PRE-OP PA & LAT)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "RIB UNILAT, W/ AP CHEST LEFT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST (PA & LAT)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST (SINGLE VIEW) PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST (PORTABLE AP)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST PORT. LINE PLACEMENT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST (SINGLE VIEW)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST (PA, LAT & OBLIQUES)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST (PRE-OP AP ONLY) PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST (SINGLE VIEW) IN O.R.": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST (PA & LAT) PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST (PRE-OP AP ONLY)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CT CHEST W/CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CT CHEST W&W/O C ": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CTA CHEST ": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CTA CHEST W&W/O C&RECONS, NON-CORONARY": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CT LUNG/MEDIASTINAL BX": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CT CHEST W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "MRI CHEST/MEDIASTINUM W/O & W/CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "MR CARDIAC MORPH/FX NO CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "MRI MEDIASTINUM/LUNG W&W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "MR CARDIAC MORPH/FX P/P CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CHEST FLUORO WITHOUT RADIOLOGIST IN O.R.": {
+        "modalities": [
+            "Fluoroscopy"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "CARDIAC STRUCTURE/MORPH, 3D, FUNCTION": {
+        "modalities": [
+            "CTU"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "UNILAT BREAST US LEFT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "MRA CHEST W/O CONTRAST": {
+        "modalities": [
+            "MRA"
+        ],
+        "regions": [
+            "Chest"
+        ]
+    },
+    "SCROTAL U.S.": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Scrotum"
+        ]
+    },
+    "CTA HEAD W&W/O C & RECONS": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "CT HEAD W/ & W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "CT HEAD W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "MR HEAD W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "MRI ORBITS & BRAIN W&W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "MR HEAD W & W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "MR HEAD W/ CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "PORTABLE HEAD CT W/O CONTRAST": {
+        "modalities": [
+            "Radiograph",
+            "CT"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "SKULL (AP, TOWNES & LAT) TRAUMA": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "MRA BRAIN W/O CONTRAST": {
+        "modalities": [
+            "MRA"
+        ],
+        "regions": [
+            "Head"
+        ]
+    },
+    "MR SHOULDER W&W/O CONTRAST LEFT": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Shoulder"
+        ]
+    },
+    "MR SHOULDER W/O CONTRAST RIGHT": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Shoulder"
+        ]
+    },
+    "MR SHOULDER W/O CONTRAST LEFT": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Shoulder"
+        ]
+    },
+    "L-SPINE (AP & LAT)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "L-SPINE (AP & LAT) IN O.R.": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "C-SPINE (AP, FLEX & EXT) 3 VIEWS": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "LUMBO-SACRAL SPINE (AP & LAT)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "L-SPINE (AP,LAT,FLEX,EXT)": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "MR L SPINE W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "MR C-SPINE SCAN WITH CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "MR CERVICAL SPINE W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "MR THORACIC SPINE W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "MR T-SPINE W &W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "MR L-SPINE W & W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "MR C-SPINE W& W/O CONTRAST": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "CT L-SPINE W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "CT T-SPINE W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "CT C-SPINE W/O CONTRAST": {
+        "modalities": [
+            "CT"
+        ],
+        "regions": [
+            "Spine"
+        ]
+    },
+    "MR HIP W/O CONRAST RIGHT": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Hip"
+        ]
+    },
+    "VENOUS DUP UPPER EXT BILATERAL": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "UNILAT UP EXT VEINS US LEFT PORT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "UNILAT UP EXT VEINS US": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "FEMORAL VASCULAR US LEFT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "BILAT UP EXT VEINS US": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "VENOUS DUP REFLUX BILAT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "UNILAT UP EXT VEINS US RIGHT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "UNILAT UP EXT VEINS US LEFT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "FEMORAL VASCULAR US RIGHT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "VENOUS DUP UPPER EXT UNILATERAL": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "VENOUS DUP EXT UNI (MAP/DVT) LEFT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "VENOUS DUP EXT UNI (MAP/DVT) RIGHT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "VENOUS DUP UPPER EXT UNILATERAL RIGHT": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "VENOUS DUP EXT UNI (MAP/DVT)": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "FEMORAL VASCULAR US": {
+        "modalities": [
+            "Ultrasound"
+        ],
+        "regions": [
+            "Venous"
+        ]
+    },
+    "SHOULDER (AP, NEUTRAL & AXILLARY) SOFT TISSUE RIGHT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Venous",
+            "Shoulder"
+        ]
+    },
+    "SHOULDER (AP, NEUTRAL & AXILLARY) TRAUMA LEFT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Venous",
+            "Shoulder"
+        ]
+    },
+    "SHOULDER (AP, NEUTRAL & AXILLARY) TRAUMA RIGHT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Venous",
+            "Shoulder"
+        ]
+    },
+    "KNEE (AP, LAT & OBLIQUE) LEFT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Knee"
+        ]
+    },
+    "KNEE (AP, LAT & OBLIQUE) RIGHT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Knee"
+        ]
+    },
+    "KNEE (AP, LAT & OBLIQUE) BILAT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Knee"
+        ]
+    },
+    "HAND (PA,LAT & OBLIQUE) LEFT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Hand"
+        ]
+    },
+    "HAND (PA,LAT & OBLIQUE) BILAT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Hand"
+        ]
+    },
+    "HAND (AP, LAT & OBLIQUE) RIGHT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Hand"
+        ]
+    },
+    "FOOT AP,LAT & OBL RIGHT PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Foot"
+        ]
+    },
+    "FOOT AP,LAT & OBL RIGHT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Foot"
+        ]
+    },
+    "FOOT AP,LAT & OBL LEFT PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Foot"
+        ]
+    },
+    "FOOT AP,LAT & OBL BILAT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Foot"
+        ]
+    },
+    "FOOT AP,LAT & OBL LEFT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Foot"
+        ]
+    },
+    "MR FOOT W&W/O CONTRAST RIGHT": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Foot"
+        ]
+    },
+    "MR FOOT W/O CONTRAST RIGHT": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Foot"
+        ]
+    },
+    "FEMUR (AP & LAT) RIGHT PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Femur"
+        ]
+    },
+    "FEMUR (AP & LAT) LEFT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Femur"
+        ]
+    },
+    "FEMUR (AP & LAT) BILAT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Femur"
+        ]
+    },
+    "ANKLE (AP, LAT & OBLIQUE) IN O.R. RIGHT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Ankle"
+        ]
+    },
+    "ANKLE (AP, MORTISE & LAT) RIGHT PORT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Ankle"
+        ]
+    },
+    "ANKLE (AP, MORTISE & LAT) LEFT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Ankle"
+        ]
+    },
+    "ANKLE (AP, MORTISE & LAT) RIGHT": {
+        "modalities": [
+            "Radiograph"
+        ],
+        "regions": [
+            "Ankle"
+        ]
+    },
+    "MR ANKLE W/O CONTRAST RIGHT": {
+        "modalities": [
+            "MRI"
+        ],
+        "regions": [
+            "Ankle"
+        ]
+    },
+    "WRIST, AP & LAT VIEWS RIGHT": {
+        "modalities": [],
+        "regions": [
+            "Wrist"
+        ]
+    }
+}

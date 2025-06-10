@@ -4,7 +4,7 @@ Code and datasets of the **ICML 2025** paper:
 **Evaluating LLMs Across Multi-Cognitive Levels: From Medical Knowledge Mastery to Scenario-Based Problem Solving**
 
 📄[Read the paper](https://openreview.net/pdf?id=sgrJs7dbWC)
-## 🚀Introduction
+## Introduction
 **MultiCogEval** (short for **Multi**-**Cog**nitive-Level Medical **Eval**uation Framework) is a medical benchmarking suite designed to evaluate the capabilities of large language models (LLMs) from a cognitive development perspective.
 
 🧬 Inspired by how clinicians are trained, MultiCogEval spans three progressive cognitive levels:\
